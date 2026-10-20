@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>資金決済法に基づく表示</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.7; max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #8884; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { width: 32%; font-weight: 600; }
+</style>
+</head>
+<body>
+<!--
+  Draft for the lead. 資金決済法 第13条の表示義務は、基準日（3月31日・9月30日）の未使用残高が
+  1,000万円を超えて自家型前払式支払手段の届出をした後に義務になる。それまでは任意の表示として掲げる。
+  未使用残高は packages/database/scripts/report-prepaid-balance.ts（読み取り専用）で確認する。
+-->
+<h1>資金決済法に基づく表示</h1>
+<p>制定日：2026年10月13日</p>
+<p>アプリ内でお買い求めいただく「クリスタル」（有償分）は、資金決済に関する法律の前払式支払手段（自家型）にあたります。</p>
+
+<table>
+  <tr><th>名称</th><td>クリスタル（有償）</td></tr>
+  <tr><th>発行者</th><td>山﨑 翔平</td></tr>
+  <tr><th>支払可能金額等</th><td>上限はありません。クリスタルは1個単位で、各商品の購入画面に表示する価格（App Store の表示）で販売します。</td></tr>
+  <tr><th>有効期間</th><td>有効期限はありません。月パスで届くクリスタルも、ログインした日に1個ずつ30日分すべて受け取れます（期限はありません）。</td></tr>
+  <tr><th>使用できる場所</th><td>このアプリ内のガチャなど、クリスタルで支払える機能でのみ使えます。</td></tr>
+  <tr><th>利用上の注意</th><td>
+    クリスタルは払い戻しできません（法令で払い戻しが必要な場合を除きます）。無償のクリスタルがあるときは、無償のものから先に使います。App Store で返金された場合、その分のクリスタルを回収します（足りない分は、次に購入したクリスタルから差し引きます）。
+  </td></tr>
+  <tr><th>未使用残高の確認方法</th><td>アプリの「ショップ」画面で、有償・無償に分けて確認できます。</td></tr>
+  <tr><th>お問い合わせ</th><td><a href="mailto:hey_show.dev@outlook.jp">hey_show.dev@outlook.jp</a>（所在地・電話番号は、請求があれば遅滞なく開示します）</td></tr>
+  <tr><th>利用規約</th><td><a href="terms.html">利用規約</a>をご確認ください。</td></tr>
+</table>
+
+<hr>
+<p><a href="tokushoho.html">特定商取引法に基づく表記</a> ／ <a href="privacy.html">プライバシーポリシー</a></p>
+</body>
+</html>
